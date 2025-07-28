@@ -1,0 +1,7 @@
+<figure class="{{ include.fig_class }}">
+   <img class="{{ include.class }}"
+        src="{{ include.file }}"
+        style="max-width: {{ include.max-width }};"
+        alt="{{ include.alt }}" />
+      {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
