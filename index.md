@@ -3,10 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+circular_images: true
+centered_figure: true
 ---
-
-{% include circular_images.html %}
-{% include centered_figure.html %}
 
 {% include figure_image.html 
 fig_class="centered_figure"
