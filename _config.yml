@@ -47,7 +47,9 @@ paths:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - README.md
+  - _posts # We aren't blogging
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
