@@ -7,9 +7,9 @@ circular_images: true
 centered_figure: true
 ---
 
-{% include figure_image.html 
+{% include figure_image.html
 fig_class="centered_figure"
-max-width="600px" 
-file="../assets/images/SQUID-6-front_cropped.jpg" 
-alt="The SQUID-6" 
+max-width="600px"
+file="SQUID-6-front_cropped.jpg"
+alt="The SQUID-6"
 %}

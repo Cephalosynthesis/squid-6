@@ -25,7 +25,7 @@ centered_figure: true
 fig_class="centered_figure"
 class="circular_images" 
 max-width="300px" 
-file="../assets/images/liam_and_pocket.jpeg" 
+file="liam_and_pocket.jpeg" 
 alt="Liam and his dog Pocket Lars." 
 caption="Liam and his dog Pocket Lars."%}
 
