@@ -31,9 +31,13 @@ The OCTAVE switch has three positions, allowing the range of the pitch control k
 
 ### Modulation Destination Switch
 The MOD.DEST switch has three positions, each corresponding to a different setting of modulation destinations. There are two modulation sources: the Swell knob and the key position expression controls. The Swell knob is a global control, while expression from the key positions affect only their corresponding oscillator. 
+
 `vol` controls the volume, either of a specific oscillator or all of the oscillators. 
+
 `noi` mixes in white noise to the audio path, allowing interesting tones when combined with the filter and delay.
+
 `timb` affects the Timbre control of a given oscillator.
+
 `len` affects the envelope length of a given oscillator. This effectively turns the Attack, Decay, and Release knobs up for that specific oscillator, but leaves the Sustain control unchanged.
 
 ## Envelopes
