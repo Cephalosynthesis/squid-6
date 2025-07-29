@@ -10,7 +10,9 @@ centered_figure: true
 
 ## Lucas Henry
 
---picture here--
+Lucas Henry is graduating as an Electrical Engineer at the end of Summer 2025. He has specialized in embedded software development, digital signal processing, and analog circuit design. In addition to SQUID-6, he has designed other audio and synthesis tools, including work with [Ultra Palace](https://www.ultrapalace.com/) and [CCTV](https://www.cctv.fm/). His [github page](https://github.com/LucasLHenry) demonstrates some of his software and hardware design projects.
+
+Contact: lucasleroyhenry@gmail.com
 
 ## Amanda Kervin
 
