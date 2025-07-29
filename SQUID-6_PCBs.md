@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: SQUID-6 PCBs
+title: PCBs
 ---
 
 # Upper PCB

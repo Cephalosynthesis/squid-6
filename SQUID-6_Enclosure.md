@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: SQUID-6 Enclosure
+title: Enclosure
 ---
 
 # Bent Sheet Metal

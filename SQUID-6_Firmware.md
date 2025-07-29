@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: SQUID-6 Firmware
+title: Firmware
 ---
 
 # General Structure
