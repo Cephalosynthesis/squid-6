@@ -28,7 +28,7 @@ github_username: jekyll
 # GithubPages Settings
 domain: Cephalosynthesis.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://Cephalosynthesis.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
+baseurl: /squid-6      # place folder name if the site is served in a subfolder
 markdown: GFM
 
 # Build settings
