@@ -6,9 +6,6 @@ circular_images: true
 centered_figure: true
 ---
 
-<!-- {% include circular_images.html %} -->
-<!-- {% include centered_figure.html %} -->
-
 # Squid Team
 
 ## Lucas Henry
