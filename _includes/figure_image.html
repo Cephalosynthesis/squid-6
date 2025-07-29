@@ -1,6 +1,6 @@
 <figure class="{{ include.fig_class }}">
    <img class="{{ include.class }}"
-        src="{{ '/assets/images/' | append: include.file | relative_url }}"
+        src="{{  site.paths.images | append: '/' | append: include.file | relative_url }}"
         style="max-width: {{ include.max-width }};"
         alt="{{ include.alt }}" />
       {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
