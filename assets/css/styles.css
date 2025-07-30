@@ -1,0 +1,35 @@
+.side-by-side {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.side-by-side img {
+  flex: 1;
+  max-width: 48%;
+  height: auto;
+}
+
+.side-by-side figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.circular_images {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* Crop image to fill dimensions */
+  display: block;    /* Remove any extra spacing */
+  border-radius: 50%;
+  margin: 0 auto; /* Center image */
+}
+
+.centered_figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
