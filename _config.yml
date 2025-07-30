@@ -22,8 +22,7 @@ title: SQUID-6
 email: lucasleroyhenry@gmail.com
 description: The SQUID-6 is a polyphonic hybrid digital-analog music synthesizer created as the the 4th year engineering project of Lucas Henry, Amanda Kervin, Liam Brinston, and Yael Oost. The project was sponsored by the University of Victoria Computer Music Course Union (CMCU). # this means to ignore newlines until "baseurl:"
 sponsor: Computer Music Course Union (CMCU)
-baseurl: "" # the subpath of your site, e.g. /blog
-github_username: jekyll
+github_username: Cephalosynthesis
 
 # GithubPages Settings
 domain: Cephalosynthesis.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
