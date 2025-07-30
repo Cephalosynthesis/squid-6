@@ -1,0 +1,11 @@
+<figure class="side-by-side">
+  <div class="image-row">
+  <div>
+    <img src="{{  site.paths.images | append: '/' | append: include.left_src | relative_url }}" alt="{{ include.left_alt }}">
+  </div>
+  <div>
+    <img src="{{ site.paths.images | append: '/' | append: include.right_src | relative_url }}" alt="{{ include.right_alt }}">
+  </div>
+  </div>
+    {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
