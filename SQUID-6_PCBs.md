@@ -24,14 +24,13 @@ The core sound generation of the synthesizer is done by a microcontroller, namel
 
 ## Delay Subcircuit 
 
-{% include figure_image.html 
-fig_class="centered_figure"
-class="" 
-max-width="600px" 
-file="mono_delay_schematic.svg" 
-alt="mono_delay_schematic.svg" 
-caption="The schematic for the mono delay circuit. Using a hierarchical design means that the L and R channel can share the same subsheet."%}
-
+{% include side_by_side_figure.html
+   left_src="mono_delay_schematic.svg" 
+   left_alt="PCB Front"
+   right_src="stereo_delay.svg"
+   right_alt="PCB Back"
+   caption="Left - The schematic for a single (mono) delay circuit (hierarchical design means that the L and R channel can share the same subsheet). Right - The upper level delay schematic showing the L & R channels with their feedback loops connected through a DPDT switch."
+%}
 
 The delay of the SQUID-6 is achieved in hardware using a chip called the PT2399. Originally designed in the late 1980ties by Princeton Technology Corp. for the commercial electronics industry the PT2399 found a second life among guitar pedal and synthesizer enthusiasts. 
 
