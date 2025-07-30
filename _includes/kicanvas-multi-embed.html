@@ -1,0 +1,12 @@
+<kicanvas-embed controls="{{ include.controls | default: 'full' }}">
+{% if include.project -%}
+<kicanvas-source src="{{ 'assets/kicad/' | append: include.project | relative_url }}"></kicanvas-source>
+{% endif -%}
+{%- assign file_list = include.files | split: ',' -%}
+{%- for file in file_list -%}
+<kicanvas-source src="{{ 'assets/kicad/' | append: file | strip | relative_url }}"></kicanvas-source>
+{% endfor -%}
+{%- if include.board -%}
+<kicanvas-source src="{{ 'assets/kicad/' | append: include.board | relative_url }}"></kicanvas-source>
+{% endif -%}
+</kicanvas-embed>
