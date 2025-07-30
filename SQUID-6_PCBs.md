@@ -1,7 +1,11 @@
 ---
 layout: "page"
 title: PCBs
+kicanvas: true
+permalink: /files/ece499_schematic/
 ---
+
+If you would like [a more interactive look]({{ '/files/project_files' | relative_url }}) at our project schematics and board files.
 
 # Upper PCB
 
