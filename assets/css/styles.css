@@ -2,13 +2,32 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
+.side-by-side img:hover {
+  transform: scale(2.00);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.image-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.image-row img {
+  height: 300px;
+  width: auto;
+  transition: transform 0.3s ease;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
 .side-by-side img {
   flex: 1;
-  max-width: 48%;
-  height: auto;
+  height: 300px;
+  width: auto;
 }
 
 .side-by-side figcaption {
