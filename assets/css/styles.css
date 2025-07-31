@@ -45,6 +45,16 @@
   margin: 0 auto; /* Center image */
 }
 
+.small_images {
+  border-radius: 10px;
+  float: left;
+  margin-right: 30px;
+  padding: 0px 30px 30px 0px;
+  object-fit: cover; /* Crop image to fill dimensions */
+  display: block;    /* Remove any extra spacing */
+  margin: 0 auto; /* Center image */
+}
+
 .centered_figure {
   display: flex;
   flex-direction: column;
