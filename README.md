@@ -1,3 +1,6 @@
+
+Welcome to the documentation for the Cephalosynthesis website. If you would like to go back to the website [click here.](https://cephalosynthesis.github.io/squid-6/)
+
 # Setup 
 
 ## Installing Jekyll
