@@ -16,7 +16,16 @@ Contact: lucasleroyhenry@gmail.com
 
 ## Amanda Kervin
 
---picture here--
+{% include figure_image.html 
+fig_class="centered_figure"
+class="circular_images" 
+max-width="300px" 
+file="amanda.jpg" 
+alt="Amanda at Formula Comp."%}
+
+Amanda Kervin is graduating in August 2025 with an Electrical Engineering degree from UVic. Working on the SQUID-6 has been an exciting opportunity to combine her musical background with her experience in circuit design and firmware development.
+
+Contact: amandajoankervin@gmail.com
 
 ## Liam Brinston
 
@@ -32,9 +41,9 @@ Liam Brinston is graduating as a Computer Engineer at the end Summer 2025. The S
 
 Contact: labrinston@gmail.com
 
-## Yael Oost
+## Yael Oosthuizen
 
---picture here--
+
 
 
 <!--
