@@ -1,7 +1,6 @@
 ---
 layout: "page"
 title: PCBs
-kicanvas: true
 permalink: /files/ece499_schematic/
 ---
 
