@@ -42,6 +42,30 @@ The MOD.DEST switch has three positions, each corresponding to a different setti
 
 ## Envelopes
 
+{% include figure_image.html
+fig_class="centered_figure"
+max-width="600px"
+file="ADSR.png"
+alt="Diagram illustrating an (A)ttack (D)ecay (S)ustain (R)elease Envelope."
+caption=""
+%}
+
+The envelope of a note or sound is it's volume profile. An envelope generator creates and controls that volume profile of a note and may consist of up to four stages:
+- `ATTACK`
+- `DECAY`
+- `SUSTAIN`
+- `RELEASE`
+
+{% include figure_image.html
+fig_class="centered_figure"
+max-width="600px"
+file="panel_adsr_crop.jpg"
+alt="Close up of SQUID-6 envelope generator control knobs."
+caption=""
+%}
+
+The SQUID-6's envelope generator has control knobs for all four plus `ENV. AMOUNT` which controls the overall length of the note. 
+
 ## Sound Source
 
 ## Mixer
