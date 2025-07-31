@@ -10,7 +10,7 @@ centered_figure: true
 {% include figure_image.html
 fig_class="centered_figure"
 max-width="600px"
-file="SQUID-6-front_cropped.jpg"
+file="SQUID-6-front_no-background.png"
 alt="The SQUID-6"
 %}
 
