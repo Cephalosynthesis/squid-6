@@ -8,6 +8,14 @@ If you would like [a more interactive look]({{ '/files/project_files' | relative
 
 # Upper PCB
 
+{% include side_by_side_figure.html
+   left_src="upper_pcb_bottom.jpg" 
+   left_alt="Bottom face of the upper PCB."
+   right_src="upper_pcb_top.jpg"
+   right_alt="Top face of the lower PCB"
+   caption="Left - Bottom face of the upper PCB complete with pick and placed components from JLC-PCB. Right - Top face of the upper PCB."
+%}
+
 The upper PCB is where most of the action is. It is home to the power, oscillators, filter, and delay circuits.
 
 ## Power 
