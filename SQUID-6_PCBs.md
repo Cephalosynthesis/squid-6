@@ -28,6 +28,14 @@ The core sound generation of the synthesizer is done by a microcontroller, namel
 
 ## Filter Subcircuit 
 
+{% include side_by_side_figure.html
+   left_src="MS-20 Filter.svg" 
+   left_alt="PCB Front"
+   right_src="MS-20 Filter-HPLP Filter L.svg"
+   right_alt="PCB Back"
+   caption="Left - The schematic for a single (mono) delay circuit (hierarchical design means that the L and R channel can share the same subsheet). Right - The upper level delay schematic showing the L & R channels with their feedback loops connected through a DPDT switch."
+%}
+
 
 ## Delay Subcircuit 
 
