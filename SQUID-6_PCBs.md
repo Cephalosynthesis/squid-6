@@ -4,7 +4,7 @@ title: PCBs
 permalink: /files/ece499_schematic/
 ---
 
-If you would like [a more interactive look]({{ '/files/project_files' | relative_url }}) at our project schematics and board files.
+If you would like [an interactive look]({{ '/files/project_files' | relative_url }}) at our project schematics and board files.
 
 # Upper PCB
 
