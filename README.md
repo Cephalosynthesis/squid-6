@@ -22,7 +22,7 @@ To install the necessary Ruby Gems (packages).
 In order to build and serve the site locally call this command:
 
 ``` shell
-bundle exec jekyll --baseurl ""
+bundle exec jekyll serve --baseurl ""
 ```
 
 >[!Important]
