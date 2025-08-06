@@ -127,6 +127,21 @@ alt="Up close photograph of the SQUID-6 keyboard."
 caption=""
 %}
 
+The sound of the six oscillators are controlled by three knobs: `TIMBRE` offset, `WAVE`, and `TIMBRE` skew (the small knob with the arrow pointing to timbre). The underlying synthesis algorithm that these parameters control could be modified, but as it stands right now they control a simple analog-style oscillator.
+
+### Timbre
+
+Timbre is a parameter that can be modified on a per-note basis. Each of the six voices can have their own timbre parameter. This is controlled using the two knobs, `TIMBRE` offset (the large knob) and `TIMBRE` skew (the small knob). Offset changes the timbre value for each voice simultaneously, while skew affects how different the timbre value for one oscillator is to the next. 
+
+With skew centered, Each voice has the same timbre value. As skew is turned up past 12 o'clock, higher voices on the keyboard get higher and higher timbre values. At maximum, the highest note will have double the timbre of the lowest note. As the knob is turned counterclockwise, this is reversed, so that lower notes have higher timbre values.
+
+The currently implemented synth algorithm has timbre controlled the angle of the waveform. With timbre all the way down, the wave is a simple triangle wave. As timbre is increased, the peak of the triangle wave moves later and later in it's cycle, until at maximum timbre the wave is a sawtooth. This can be heard audibly as an increase in harmonics as timbre is turned up.
+
+Timbre can also be modified using the `MOD.DEST` switch. In the top position, the position of each finger up the key also adds to the timbre value of the corresponding voice.
+
+### Wave
+
+Wave is a parameter that each oscillator shares, unlike timbre. In the case of the current synth algorithm, it mixes in a square wave one octave below the fundamental of it's associated voice (often called a 'sub'), adding depth to the tone.
 
 ## Mixer
 
