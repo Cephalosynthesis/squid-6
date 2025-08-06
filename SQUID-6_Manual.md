@@ -145,6 +145,20 @@ Wave is a parameter that each oscillator shares, unlike timbre. In the case of t
 
 ## Mixer
 
+The mixer on this synthesizer is somewhat unconventional. Instead of representing the mixing of various sound sources in each individual oscillator, it contains parameters describing the way in which each of the six voices are mixed together. It has two parameters: `COLOUR` and `SPREAD`.
+
+### Spread
+
+`SPREAD` affects where each oscillator is placed in the stereo field. With the control centered, each voice is panned to the middle, creating a mono signal. When it is turned up past 12 o'clock, the lower voices are panned left and the upper voices and panned right. At it's maximum, the leftmost key will be heard only in the left ear, and the rightmost only in the right.
+
+### Colour
+
+After the effect of the `SPREAD` knob is applied, a saturator is applied to the signal. Note that this is a stereo saturator, so it is applied to the left and right channel independantly.
+
+A saturator has the effect of smoothing out the tops of waveforms, effectively squashing them down. This is known as a 'nonlinear' effect, because when sounds are combined before being passed through a nonlinear effect, it has different results than if each one was individually affected before being combined. This can be heard on the synth, when playing two or more notes with `COLOUR` turned up. You may notice tones in the audio that were not present when you played any of the notes individually.
+
+This has the effect of distorting and 'warming' the sound somewhat, and interacts well with the filter and delay.
+
 ## Stereo Filter
 
 ## Stereo Delay
