@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Firmware
+order: 3
 ---
 
 # General Structure

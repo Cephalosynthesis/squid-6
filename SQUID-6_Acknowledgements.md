@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Acknowledgements
+order: 6
 ---
 
 ## UVic Computer Music Course Union (CMCU)

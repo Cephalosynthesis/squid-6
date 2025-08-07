@@ -2,6 +2,7 @@
 layout: "page"
 title: PCBs
 permalink: /files/ece499_schematic/
+order: 2
 ---
 
 If you would like [an interactive look]({{ '/files/project_files' | relative_url }}) at our project schematics and board files.

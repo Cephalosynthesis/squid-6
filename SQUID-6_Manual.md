@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Manual
+order: 1
 ---
 
 # General Description

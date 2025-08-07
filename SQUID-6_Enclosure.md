@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Enclosure
+order: 4
 ---
 
 # Bent Sheet Metal

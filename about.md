@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 circular_images: true
 centered_figure: true
+order: 5
 ---
 
 # Squid Team
