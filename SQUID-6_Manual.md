@@ -161,6 +161,28 @@ This has the effect of distorting and 'warming' the sound somewhat, and interact
 
 ## Stereo Filter
 
+The filter section immediately follows the audio output of the microcontroller. It is two identical two-pole lowpass/highpass filters, one on the left and one on the right channel. The filter topology is based on the Korg MS-20 filter, as described by Rene Schmitz [here](https://www.schmitzbits.de/ms20.html).
+
+### Cutoff
+
+`CUTOFF` is the master frequency control, modifying the cutoff frequency of both filters together. In lowpass mode, turning the knob up lets in higher and higher frequencies, making the sound louder.
+
+### LP/HP Switch
+
+The switch next to the master cutoff knob controls the topology of the filter. In the bottom position, it is a lowpass filter, letting through every frequency below the cutoff. In the top position, it is a highpass filter, only letting in frequencies above the cutoff.
+
+### Q
+
+`Q.LEFT` and `Q.RIGHT` control the resonance for each side independently. This emphasizes the tone at the cutoff frequency. At high levels, the filter can self-oscillate, generating a tone even when no input audio is played. __Patch Tip__: setting the filter to self-oscillate and then turning the cutoff knob will create wide-band sine wave sweeps, which in combination with the delay can create some very interesting tones.
+
+### Envelope Amount
+
+`ENV. AMOUNT` controls how much the envelope signals affect the cutoff frequency. When turned all the way down, the envelope has no effect on the filter. As it is turned up, the envelope pushes the cutoff frequency more and more. Because there are six independant envelopes, the filter is affected by their maximum.
+
+### Spacing
+
+`SPACING` seperates the cutoff frequencies of the left and right channels. Turning it past 12 o'clock increases the right side cutoff while decreasing the left side, and turning it counterclockwise does the opposite. When centered, the left and right side have the same cutoff frequency. __Patch Tip__: this is a very fun knob to turn while sustaining a note!
+
 ## Stereo Delay
 
 {% include figure_image.html
