@@ -44,8 +44,16 @@ Contact: labrinston@gmail.com
 
 ## Yael Oosthuizen
 
+{% include figure_image.html
+fig_class="centered_figure"
+class="circular_images"
+max-width="300px"
+file="about-yael.jpg"
+alt="Yael on an adventure."%}
 
+Yaël Oosthuizen is graduating with an Electrical Engineering degree at the end of summer 2025. The SQUID-6 has provided an opportunity to apply electrical systems integration and systems engineering principles. It also allowed him to combine his passion for music with his expertise in end-to-end engineering design and manufacturing.
 
+Contact: oost.yael@gmail.com
 
 <!--
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
